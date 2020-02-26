@@ -3,7 +3,7 @@
 void ten_ham()
 {
 
-cac dong lenh
+cac dong lenh;
 
 }
 
@@ -12,28 +12,20 @@ cac dong lenh
 
 #include<stdio.h>
 
-void tin_dien_tich();
+void basic_f();
 void main( )
 {
-tin_dien_tich();
+basic_f();
 
 
 }
 
 
-void tin_dien_tich()
+void basic_f()
 {
-int dai;
-int rong;
 
-printf("nhap chieu dai: ");
-scanf("%d",&dai);
+printf("basic_funtion\n");
 
-printf("nhap chieu rong: ");
-scanf("%d",&rong);
-
-printf("dien tich la: %d x %d = %f\n", dai , rong, (float)(dai*rong));
 }
-
 
 
