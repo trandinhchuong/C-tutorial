@@ -10,4 +10,7 @@ scanf("%d",&a); //đọc kí tự ch từ bàn phím
 if(a>100)
 	printf("so vua nhap lon hon 100 \n\n");
 
+else 
+	printf("so vua nhap nho hon 100 \n\n");
+
 }
